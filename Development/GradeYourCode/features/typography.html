@@ -1,0 +1,1120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Piksell HTML5 Template</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Piksell Responsive Multipurpose Template">
+    <meta name="author" content="Diamant Gjota" />
+    <meta name="keywords" content="piksell, html5, css3, template, bootstrap" />
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+    
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <!-- Icons/FontAwesome -->
+    <link rel="stylesheet" href="../css/font-awesome.min.css" />
+    <!-- totop -->
+    <link rel="stylesheet" href="../css/ui.totop.css" />
+    <!-- zetta menu -->
+    <link rel="stylesheet" href="../css/zetta-menu.min.css" />
+    <!-- Customizable CSS -->
+    <link rel="stylesheet" href="../css/style.css" />
+    
+    <!-- FONTS -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../img/favicon.ico">
+    
+    <!-- HTML5 elements and media queries Support for IE8 : HTML5 shim and Respond.js -->
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+    <![endif]-->
+    
+</head>
+		
+<body>
+	
+    <i class="switches-btn fa fa-cogs"></i>
+    <div class="theme-options">
+    	<i class="sw-close-btn fa fa-close"></i>
+        <h6>Theme Settings</h6>
+        <form id="switchform">
+            <input type="radio" id="default" name="choice" value="default-theme" onClick="chooseStyle(this.value, 60)" checked>
+            <label for="default">Default</label>
+        	<input type="radio" id="pink" name="choice" value="pink-theme" onClick="chooseStyle(this.value, 60)">
+           	<label for="pink">Pink</label>
+        	<input type="radio" id="red" name="choice" value="red-theme" onClick="chooseStyle(this.value, 60)">
+           	<label for="red">Red</label>
+            <br />
+            <input type="radio" id="purple" name="choice" value="purple-theme" onClick="chooseStyle(this.value, 60)">
+           	<label for="purple">Purple</label>
+            <input type="radio" id="orange" name="choice" value="orange-theme" onClick="chooseStyle(this.value, 60)">
+           	<label for="orange">Orange</label>
+            <input type="radio" id="blue" name="choice" value="blue-theme" onClick="chooseStyle(this.value, 60)">
+           	<label for="blue">Blue</label>
+            <br />
+			<input type="radio" id="green" name="choice" value="green-theme" onClick="chooseStyle(this.value, 60)">
+           	<label for="green">Green</label>
+            <input type="radio" id="brown" name="choice" value="brown-theme" onClick="chooseStyle(this.value, 60)">
+           	<label for="brown">Brown</label>            
+            <br />
+        	<a href="#" id="wide" class="btn btn-block btn-primary pi-btn-dark">Wide</a>
+            <a href="#" id="boxed" class="btn btn-block btn-primary pi-btn-dark">Boxed</a>
+            <br />
+            <div class="text-center">
+            	<a href="#"><img class="active" src="../img/patterns/pattern-01-30x30.png" alt="" /></a>
+            	<a href="#"><img src="../img/patterns/pattern-02-30x30.png" alt="" /></a>
+            	<a href="#"><img src="../img/patterns/pattern-03-30x30.png" alt="" /></a>
+            	<a href="#"><img src="../img/patterns/pattern-04-30x30.png" alt="" /></a>
+            </div>
+        </form>
+    </div>
+
+	<!-- top header -->
+    <div id="top-header" class="dark">
+        <div class="container top-header">
+            <div class="row">
+                
+                <div class="col-md-6 col-sm-7">
+                    <a href="#" class="social-icon-jump-x2">
+                        <div>
+                            <i class="fa fa-facebook facebook-icon-jump"></i>
+                            <i class="fa fa-facebook social-icon-jump-dark"></i>
+                        </div>
+                    </a>
+                    <a href="#" class="social-icon-jump-x2">
+                        <div>
+                            <i class="fa fa-twitter twitter-icon-jump"></i>
+                            <i class="fa fa-twitter social-icon-jump-dark"></i>
+                        </div>
+                    </a>
+                    <a href="#" class="social-icon-jump-x2">
+                        <div>
+                            <i class="fa fa-skype skype-icon-jump"></i>
+                            <i class="fa fa-skype social-icon-jump-dark"></i>
+                        </div>
+                    </a>
+                    <a href="#" class="social-icon-jump-x2">
+                        <div>
+                            <i class="fa fa-dribbble dribbble-icon-jump"></i>
+                            <i class="fa fa-dribbble social-icon-jump-dark"></i>
+                        </div>
+                    </a>
+                    <a href="#" class="social-icon-jump-x2">
+                        <div>
+                            <i class="fa fa-linkedin linkedin-icon-jump"></i>
+                            <i class="fa fa-linkedin social-icon-jump-dark"></i>
+                        </div>
+                    </a>
+                    <a href="#" class="social-icon-jump-x2">
+                        <div>
+                            <i class="fa fa-youtube youtube-icon-jump"></i>
+                            <i class="fa fa-youtube social-icon-jump-dark"></i>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="col-md-6 col-sm-5">
+                    <ul class="top-navigation inline-block pull-right">
+                        <li class="languages-nav">
+                            <i class="fa fa-globe"></i>
+                            <a>Languages</a>
+                            <ul class="languages">
+                                <li>
+                                    <a class="active" href="#">English</a>
+                                </li>
+                                <li>
+                                    <a href="#">German</a>
+                                </li>
+                                <li>
+                                    <a href="#">Spanish</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="../faq.html">Help</a></li>
+                        <li><a href="../sign-in.html">Login</a></li>
+                    </ul>   
+                </div>
+            
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div>
+    <!-- end top header -->
+    
+    <!-- start Navigation -->
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <!-- Zetta Menu 1 -->
+        <ul onClick="" class="zetta-menu zm-response-switch zm-full-width zm-effect-slide-top">
+            <!-- LOGO -->
+            <li class="zm-logo">
+                <a href="#"><img src="../img/piksell_light.png" alt="piksell logo" /></a>
+            </li>
+            <!-- end LOGO -->
+            
+            <!-- Home Menu -->
+            <li class="zm-active"><a>Home</a>
+                <ul class="w-200">
+                    <li class="zm-active"><a href="../index.html">Home Creative 1</a></li>
+                    <li><a href="../home_creative2.html">Home Creative 2</a></li>
+                    <li><a href="../home_agency1.html">Home Agency 1</a></li>
+                    <li><a href="../home_agency2.html">Home Agency 2</a></li>
+                    <li><a href="../home_agency3.html">Home Agency 3</a></li>
+                    <li><a href="../home_agency4.html">Home Agency 4</a></li>
+                    <li><a href="../home_boxed.html">Home Boxed</a></li>
+                    <li><a href="../onepage.html">One Page Template</a></li>
+                </ul>
+            </li>
+            <!-- /Home Menu -->
+            
+            <!-- Features Menu -->
+            <li><a>Features</a>
+                <ul class="w-150">
+                    <li><a href="headers.html">Headers</a></li>
+                    <li><a href="footers.html">Footers</a></li>
+                    <li><a href="typography.html">Typography</a></li>
+                    <li><a href="icons.html">Icons</a></li>
+                    <li><a href="animation.html">Animation</a></li>
+                    <li><a><i class="zm-caret fa fa-angle-right"></i>Sub Menu</a>
+						<ul class="zm-drop-right w-150">
+                            <li><a href="#">Level One</a></li>
+                            <li><a>Level One<i class="zm-caret fa fa-angle-right"></i></a>
+                            	<ul class="zm-drop-right w-150">
+                                	<li><a href="#">Level Two</a></li>
+                                    <li><a href="#">Level Two</a></li>
+                                    <li><a><i class="zm-caret fa fa-angle-left"></i> Level Two</a>
+                                    	<ul class="zm-drop-left w-150">
+                                        	<li><a href="#">Level Three</a></li>
+                                            <li><a href="#">Level Three</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <!-- /Features Menu -->
+            
+            <!-- Pages -->
+            <li class="zm-content-full"><a>Pages</a>
+                <div>
+                    <div class="zm-row">
+                        <div class="zm-col c-3">
+                            <ul>
+                                <li><a href="../about-us-1.html"><i class="fa fa-angle-right"></i>About Us 1</a></li>
+                                <li><a href="../about-us-2.html"><i class="fa fa-angle-right"></i>About Us 2</a></li>
+                                <li><a href="../about-us-3.html"><i class="fa fa-angle-right"></i>About Us 3</a></li>
+                                <li><a href="../about-me.html"><i class="fa fa-angle-right"></i>About Me</a></li>
+                                <li><a href="../team1.html"><i class="fa fa-angle-right"></i>Team 1</a></li>
+                                <li><a href="../team2.html"><i class="fa fa-angle-right"></i>Team 2</a></li>
+                                <li><a href="../services-1.html"><i class="fa fa-angle-right"></i>Services 1</a></li>
+                                <li><a href="../services-2.html"><i class="fa fa-angle-right"></i>Services 2</a></li>
+                                <li><a href="../services-3.html"><i class="fa fa-angle-right"></i>Services 3</a></li>
+                                <li><a href="../services-4.html"><i class="fa fa-angle-right"></i>Services 4</a></li>
+                            </ul>
+                        </div>
+                        <div class="zm-col c-3">
+                            <ul>
+                                <li><a href="../services-5.html"><i class="fa fa-angle-right"></i>Services 5</a></li>
+                                <li><a href="../services-6.html"><i class="fa fa-angle-right"></i>Services 6</a></li>
+                                <li><a href="../services-7.html"><i class="fa fa-angle-right"></i>Services 7</a></li>
+                                <li><a href="../services-8.html"><i class="fa fa-angle-right"></i>Services 8</a></li>
+                                <li><a href="../clients-1.html"><i class="fa fa-angle-right"></i>Clients 1</a></li>
+                                <li><a href="../clients-2.html"><i class="fa fa-angle-right"></i>Clients 2</a></li>
+                                <li><a href="../clients-3.html"><i class="fa fa-angle-right"></i>Clients 3</a></li>
+                                <li><a href="../portfolio-3-column1.html"><i class="fa fa-angle-right"></i>Portfolio 3 Column v1</a></li>
+                                <li><a href="../portfolio-3-column2.html"><i class="fa fa-angle-right"></i>Portfolio 3 Column v2</a></li>
+                                <li><a href="../portfolio-item-1.html"><i class="fa fa-angle-right"></i>Portfolio Item 1</a></li>
+                            </ul>
+                        </div>
+                        <div class="zm-col c-3">
+                            <ul>
+                                <li><a href="../portfolio-item-2.html"><i class="fa fa-angle-right"></i>Portfolio Item 2</a></li>
+                                <li><a href="../error404.html"><i class="fa fa-angle-right"></i>Error 404</a></li>
+                                <li><a href="../error500.html"><i class="fa fa-angle-right"></i>Error 500</a></li>
+                                <li><a href="../sign-in.html"><i class="fa fa-angle-right"></i>Sign In</a></li>
+                                <li><a href="../sign-up.html"><i class="fa fa-angle-right"></i>Sign Up</a></li>
+                                <li><a href="../contact-1.html"><i class="fa fa-angle-right"></i>Contact 1</a></li>
+                                <li><a href="../contact-2.html"><i class="fa fa-angle-right"></i>Contact 2</a></li>
+                                <li><a href="../contact-3.html"><i class="fa fa-angle-right"></i>Contact 3</a></li>
+                            	<li><a href="../blog-left-sidebar.html"><i class="fa fa-angle-right"></i>Blog Sidebar Left</a></li>
+                                <li><a href="../blog-right-sidebar.html"><i class="fa fa-angle-right"></i>Blog Sidebar Right</a></li>
+                            </ul>
+                        </div>
+                        <div class="zm-col c-3">
+                            <ul class="last">
+                                <li><a href="../blog-full-width.html"><i class="fa fa-angle-right"></i>Blog Full Width</a></li>
+                                <li><a href="../blog-item-left-sidebar.html"><i class="fa fa-angle-right"></i>Blog Item Left Sidebar</a></li>
+                                <li><a href="../blog-item-right-sidebar.html"><i class="fa fa-angle-right"></i>Blog Item Right Sidebar</a></li>
+                                <li><a href="../blog-item-full-width.html"><i class="fa fa-angle-right"></i>Blog Item Full Width</a></li>
+                                <li><a href="../privacy-policy.html"><i class="fa fa-angle-right"></i>Privacy Policy</a></li>
+                                <li><a href="../terms-of-service.html"><i class="fa fa-angle-right"></i>Terms of Service</a></li>
+                                <li><a href="../faq.html"><i class="fa fa-angle-right"></i>FAQ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <!-- /Pages -->
+            
+            <!-- Elements -->
+            <li class="zm-content-full"><a>Elements</a>
+                <div>
+                    <div class="zm-row">
+                        <div class="zm-col c-3">
+                            <ul>
+                                <li><a href="accordion-tabs.html"><i class="fa fa-angle-right"></i>Accordion & tabs</a></li>
+                                <li><a href="alerts.html"><i class="fa fa-angle-right"></i>Alerts</a></li>
+                                <li><a href="boxes.html"><i class="fa fa-angle-right"></i>Boxes</a></li>
+                                <li><a href="buttons.html"><i class="fa fa-angle-right"></i>Buttons</a></li>
+                                <li><a href="breadcrumbs.html"><i class="fa fa-angle-right"></i>Breadcrumbs</a></li>
+                            </ul>
+                        </div>
+                        <div class="zm-col c-3">
+                            <ul>
+                                <li><a href="carousel.html"><i class="fa fa-angle-right"></i>Carousel</a></li>
+                                <li><a href="counters.html"><i class="fa fa-angle-right"></i>Counters</a></li>
+                                <li><a href="forms.html"><i class="fa fa-angle-right"></i>Forms</a></li>
+                                <li><a href="icon-boxes.html"><i class="fa fa-angle-right"></i>Icon Boxes</a></li>
+                                <li><a href="lists.html"><i class="fa fa-angle-right"></i>Lists</a></li>
+                            </ul>
+                        </div>
+                        <div class="zm-col c-3">
+                            <ul>
+                                <li><a href="paginations.html"><i class="fa fa-angle-right"></i>Pagination</a></li>
+                                <li><a href="progress.html"><i class="fa fa-angle-right"></i>Progress bar</a></li>
+                                <li><a href="tables.html"><i class="fa fa-angle-right"></i>Table</a></li>
+                                <li><a href="testimonials.html"><i class="fa fa-angle-right"></i>Testimonials</a></li>
+                                <li><a href="panels.html"><i class="fa fa-angle-right"></i>Panels</a></li>
+                            </ul>
+                        </div>
+                        <div class="zm-col c-3">
+                            <ul class="last">
+                                <li><a href="sections.html"><i class="fa fa-angle-right"></i>Sections</a></li>
+                                <li><a href="thumbnails.html"><i class="fa fa-angle-right"></i>Thumbnails</a></li>
+                                <li><a href="pricing-tables.html"><i class="fa fa-angle-right"></i>Pricing Tables</a></li>
+                                <li><a href="social-icons.html"><i class="fa fa-angle-right"></i>Social Icons</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <!-- /Elements -->
+            
+            <!-- Blog Menu -->
+            <li><a href="../documentation/docs.html">Documentation</a></li>
+            <!-- /Blog Menu -->
+    
+            <!-- Search Place -->
+            <li class="zm-search zm-right-item">
+                <form>
+                    <input id="search-1" name="search" type="search">
+                    <label for="search-1" class="fa fa-search"></label>
+                </form>
+            </li>
+            <!-- /Search Place -->
+        </ul>
+        <!-- /Zetta Menu 1 -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    <!-- end nav -->	
+    
+    <!-- Breadcrumbs ===-->
+    <div class="breadcrumbs section-parallax parallaxBg" style="background-image: url(../img/breadcrumb-bg.jpg);">
+    	<div class="layer"></div>
+        <div class="container parallax-content">
+            <h3 class="pull-left">Typography</h3>
+            <ul class="pull-right breadcrumb">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li class="active">Typography</li>
+            </ul>
+        </div>
+    </div>
+    <!-- End Breadcrumbs -->
+    
+    <!-- paragraph and heading -->
+    <section class="content">
+    	<div class="container">
+        	<div class="row">
+            	<h3 class="text-center">Typography</h3>
+                <div class="line"></div>
+                
+                <div class="col-sm-6 padd">
+                	<h5>Paragraph</h5>
+                    <div class="line-left"></div>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero magna. Sed et quam lacus.</p>
+                    <p><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero magna. Sed et quam lacus.</em></p>
+                    <p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero magna. Sed et quam lacus.</strong></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero magna. Sed et quam lacus.</p>
+                    <p><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero magna. Sed et quam lacus.</small></p>
+                </div><!-- end col-sm-6 -->
+                
+                <div class="col-sm-6 padd">
+                	<h5>Heading</h5>
+                    <div class="line-left"></div>
+                    <h1>h1. Heading 1</h1>
+                    <h2>h2. Heading 2</h2>
+                    <h3>h3. Heading 3</h3>
+                    <h4>h4. Heading 4</h4>
+                    <h5>h5. Heading 5</h5>
+                    <h6>h6. Heading 6</h6>
+                    
+                </div><!-- end col-sm-6 -->
+            
+            </div><!-- end row -->        
+       	</div><!-- end container -->            
+   	</section>            
+	<!-- end paragraph and heading --> 		               
+	
+    <!-- blockquote -->
+    <section class="content section-grey">
+    	<div class="container">
+        	<div class="row">
+            	<h5 class="text-center">Blockquotes</h5>
+                <div class="line"></div>
+                
+                <div class="col-sm-12 padd">
+                    <blockquote>
+                        <h5>Blockquote default</h5>
+                        <p>"Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma - which is living with the results of other people's thinking. Don't let the noise of others' opinions drown out your own inner voice. And most important, have the courage to follow your heart and intuition."</p>
+                        <cite>John Doe</cite>
+                    </blockquote>
+                </div><!-- end col-sm-12 -->
+                
+                <div class="col-sm-6 padd">
+                    <blockquote class="border-left-hover">
+                        <h5>Blockquote example 1</h5>
+                        <p>"Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma - which is living with the results of other people's thinking."</p>
+                        <cite>John Doe</cite>
+                    </blockquote>
+                </div><!-- end col-sm-6 -->
+                
+                <div class="col-sm-6 padd">
+                    <blockquote class="border-right-hover text-right">
+                        <h5>Blockquote example 2</h5>
+                        <p>"Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma - which is living with the results of other people's thinking."</p>
+                        <cite>John Doe</cite>
+                    </blockquote>
+                </div><!-- end col-sm-6 -->
+                
+                <div class="col-sm-12 padd">
+                    <blockquote class="border-left">
+                        <p class="lead">"Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma - which is living with the results of other people's thinking. Don't let the noise of others' opinions drown out your own inner voice. And most important, have the courage to follow your heart and intuition."</p>
+                        <cite>John Doe</cite>
+                    </blockquote>
+                </div><!-- end col-sm-12 -->
+                
+                <div class="col-sm-12 padd">
+                    <blockquote class="border-right text-right">
+                        <p class="lead">"Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma - which is living with the results of other people's thinking. Don't let the noise of others' opinions drown out your own inner voice. And most important, have the courage to follow your heart and intuition."</p>
+                        <cite>John Doe</cite>
+                    </blockquote>
+                </div><!-- end col-sm-12 -->
+                
+                <div class="col-sm-12 padd">
+                    <blockquote class="quote-bg-grey border-left">
+                        <p>"Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma - which is living with the results of other people's thinking. Don't let the noise of others' opinions drown out your own inner voice. And most important, have the courage to follow your heart and intuition."</p>
+                        <cite>John Doe</cite>
+                    </blockquote>
+                </div><!-- end col-sm-12 -->
+                
+                <div class="col-sm-12 padd">
+                    <blockquote class="quote-bg-dark no-border text-center">
+                        <p>"Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma - which is living with the results of other people's thinking. Don't let the noise of others' opinions drown out your own inner voice. And most important, have the courage to follow your heart and intuition."</p>
+                        <cite>John Doe</cite>
+                    </blockquote>
+                </div><!-- end col-sm-12 -->
+                
+                <div class="col-sm-12 padd">
+                    <blockquote class="quote-bg-color no-border text-right">
+                        <p>"Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma - which is living with the results of other people's thinking. Don't let the noise of others' opinions drown out your own inner voice. And most important, have the courage to follow your heart and intuition."</p>
+                        <cite>John Doe</cite>
+                    </blockquote>
+                </div><!-- end col-sm-12 -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </section>
+    <!-- end blockquote -->
+    
+    <!-- header options -->
+    <section class="content">
+    	<div class="container">
+        	<div class="row">
+            	<div class="col-sm-12">
+                    <h5 class="text-center">Header Options</h5>
+                    <div class="line"></div>
+                    
+                    <p class="text-center"><code>.header-v1</code></p>
+                    <div class="margin-bottom-45">
+                            <h5 class="heading heading-v1"><span>Heading Version 1</span></h5>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+                    </div><!-- end margin-bottom-45 -->
+                    
+                    <p class="text-center"><code>.header-v2</code></p>
+                    <div class="margin-bottom-45">
+                        <h5 class="heading heading-v2 text-right"><span>Heading Version 2</span></h5>
+                        <p class="text-right">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+                </div><!-- end margin-bottom-45 -->
+                    
+                    <p class="text-center"><code>.header-v3</code></p>
+                    <div class="margin-bottom-45">
+                        <h5 class="heading heading-v3 text-center"><span>Heading Version 3</span></h5>
+                        <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+                    </div><!-- end margin-bottom-45 -->
+            	</div><!-- end col-sm-12 -->        
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </section>
+    <!-- end header options -->
+    
+    <!-- paragraph subtitle -->
+    <section class="content section-grey">
+    	<div class="container">
+        	<div class="row">
+            	<h5 class="text-center">Paragraph Subtitle</h5>\
+                <div class="line"></div>
+                
+                <div class="col-sm-4 padd">
+                    <p class="heading heading-v1"><span>Paragraph</span></p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+                </div>
+                
+                <div class="col-sm-4 padd">
+                    <p class="heading heading-v2 text-center"><span>Paragraph</span></p>
+                    <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+                </div>
+                
+                <div class="col-sm-4 padd">
+                    <p class="heading heading-v3 text-right"><span>Paragraph</span></p>
+                    <p class="text-right">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+                </div>
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </section>
+    <!-- end paragraph subtitle --> 
+    
+    <!-- highlights -->
+    <section class="content">
+    	<div class="container">
+        	<div class="row">
+            	<h5 class="text-center">Higlights</h5>
+                <div class="line"></div>
+                
+                <div class="col-sm-6">
+                    <h6>Higlights Default</h6>
+                    <div class="line-left"></div>
+                    <p>Passages of Lorem Ipsum <span class="text-higlights">on the other hand</span> we denounce with <span class="text-higlights text-higlights-pink">righteous</span> but the <span class="text-higlights text-higlights-red">majority</span> have suffered alteration in some form, by injected humour, or randomised words which don't look even <span class="text-higlights text-higlights-purple">slightly believable.</span> If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the <span class="text-higlights text-higlights-orange">middle of text.</span> All the Lorem Ipsum <span class="text-higlights text-higlights-blue">generators</span> on the Internet tend to repeat predefined chunks as necessary making this the first true generator <span class="text-higlights text-higlights-dark">on the Internet</span>. It uses a dictionary of over <span class="text-higlights text-higlights-grey">200 Latin words</span>. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical <span class="text-higlights text-higlights-light-grey">Latin literature</span> from 45 BC.</p>
+                </div><!-- end col-sm-6-->
+                
+                <div class="col-sm-6">
+                    <h6>Higlights Rounded - <code>.rounded .rounded-x2 .rounded-x3</code></h6>
+                    <div class="line-left"></div>
+                    <p>Passages of Lorem Ipsum <span class="text-higlights rounded">on the other hand</span> we denounce with <span class="text-higlights text-higlights-pink rounded">righteous</span> but the <span class="text-higlights text-higlights-red rounded-x2">majority</span> have suffered alteration in some form, by injected humour, or randomised words which don't look even <span class="text-higlights text-higlights-purple rounded-x3">slightly believable.</span> If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the <span class="text-higlights text-higlights-orange rounded-x3">middle of text.</span> All the Lorem Ipsum <span class="text-higlights text-higlights-blue rounded-x2">generators</span> on the Internet tend to repeat predefined chunks as necessary making this the first true generator <span class="text-higlights text-higlights-dark rounded">on the Internet</span>. It uses a dictionary of over <span class="text-higlights text-higlights-grey rounded">200 Latin words</span>. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical <span class="text-higlights text-higlights-light-grey rounded">Latin literature</span> from 45 BC.</p>
+                </div><!-- end col-sm-6-->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </section>
+    <!-- end highlights -->
+    
+    <!-- tooltips -->
+    <section class="content section-grey">
+    	<div class="container text-center">
+        	<div class="row">
+            	<h5>Tooltips</h5>
+                <div class="line"></div>
+                <p>Passages of <a href="#" class="tooltips" data-toggle="tooltip" data-placement="top" title="Tooltip on top">Lorem Ipsum</a> on the other hand we denounce with righteous but the majority have suffered alteration in some form, by <span class="text-higlights text-higlights-grey rounded">injected humour</span>, or randomised words which don't look even slightly believable.</p>
+                <p class="margin-top-25">
+                <a href="#" class="btn btn-sm pi-btn-default btn-border margin-bottom-10" data-toggle="tooltip" data-placement="left" title="Tooltip on left">Tooltip on left</a>
+                <a href="#" class="btn btn-sm pi-btn-red btn-border margin-bottom-10" data-toggle="tooltip" data-placement="top" title="Tooltip on top">Tooltip on top</a>
+                <a href="#" class="btn btn-sm pi-btn-dark btn-border margin-bottom-10" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">Tooltip on bottom</a>
+                <a href="#" class="btn btn-sm pi-btn-purple btn-border margin-bottom-10" data-toggle="tooltip" data-placement="right" title="Tooltip on right">Tooltip on right</a>
+                
+                </p>
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </section>
+    <!-- end tooltips -->
+    
+    <!-- popover -->
+    <section class="content section-grey">
+    	<div class="container text-center">
+        	<div class="row">
+            	<h5>Popovers</h5>
+                <div class="line"></div>
+                <p class="margin-bottom-25">Passages of Lorem Ipsum on the other hand we denounce with righteous but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                <a class="btn btn-sm pi-btn-default btn-border margin-bottom-10" title="Popover on left" data-container="body" data-toggle="popover" data-placement="left" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">Popover on left</a>
+                <a class="btn btn-sm pi-btn-red btn-border margin-bottom-10" title="Popover on top" data-container="body" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">Popover on top</a>
+                <a class="btn btn-sm pi-btn-dark btn-border margin-bottom-10" title="Popover on bottom" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">Popover on bottom</a>
+                <a class="btn btn-sm pi-btn-purple btn-border margin-bottom-10" title="Popover on right" data-container="body" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">Popover on right</a>
+            </div><!-- end row -->
+        </div><!-- end container  -->
+    </section>
+    <!-- popover -->
+    
+    <!-- margins -->
+    <section class="content">
+    	<div class="container">
+        	<div class="row">
+            	<h5 class="text-center">Margins</h5>
+                <div class="line"></div>
+                
+                <div class="col-sm-12 padd text-center">
+                    <h6 class="margin-bottom-5">(margin bottom 5px) - <code>.margin-bottom-5</code></h6>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                    <hr class="margin-bottom-45">
+                    
+                    <h6 class="margin-bottom-10">(margin bottom 10px) - <code>.margin-bottom-10</code></h6>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                    <hr class="margin-bottom-45">
+                    
+                    <h6 class="margin-bottom-15">(margin bottom 15px) - <code>.margin-bottom-15</code></h6>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                    <hr class="margin-bottom-45">
+                    
+                    <h6 class="margin-bottom-20">(margin bottom 20px) - <code>.margin-bottom-20</code></h6>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                    <hr class="margin-bottom-45">
+                    
+                    <h6 class="margin-bottom-25">(margin bottom 25px) - <code>.margin-bottom-25</code></h6>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                    <hr class="margin-bottom-45">
+                    
+                    <h6 class="margin-bottom-30">(margin bottom 30px) - <code>.margin-bottom-30</code></h6>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                    <hr class="margin-bottom-45">
+                    
+                    <h6 class="margin-bottom-35">(margin bottom 35px) - <code>.margin-bottom-35</code></h6>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                    <hr class="margin-bottom-45">
+                    
+                    <h6 class="margin-bottom-40">(margin bottom 40px) - <code>.margin-bottom-40</code></h6>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                    <hr class="margin-bottom-45">
+                    
+                    <h6 class="margin-bottom-45">(margin bottom 45px) - <code>.margin-bottom-45</code></h6>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                    <hr class="margin-bottom-45">
+            	</div><!-- end col-sm-12 -->
+                
+                <div class="col-sm-6 padd">
+                    <h6 class="margin-left-5">(margin left 5px) - <code>.margin-left-5</code></h6>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                    <hr class="margin-bottom-45">
+                    
+                    <h6 class="margin-left-10">(margin left 10px) - <code>.margin-left-10</code></h6>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                    <hr class="margin-bottom-45">
+                    
+                    <h6 class="margin-left-15">(margin left 15px) - <code>.margin-left-15</code></h6>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                    <hr class="margin-bottom-45">
+                    
+                    <h6 class="margin-left-20">(margin left 20px) - <code>.margin-left-20</code></h6>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                    <hr class="margin-bottom-45">
+                    
+                    <h6 class="margin-left-25">(margin left 25px) - <code>.margin-left-25</code></h6>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                    <hr class="margin-bottom-45">
+                    
+                    <h6 class="margin-left-30">(margin left 30px) - <code>.margin-left-30</code></h6>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                    <hr class="margin-bottom-45">
+                    
+                    <h6 class="margin-left-35">(margin left 35px) - <code>.margin-left-35</code></h6>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                    <hr class="margin-bottom-45">
+                    
+                    <h6 class="margin-left-40">(margin left 40px) - <code>.margin-left-40</code></h6>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                    <hr class="margin-bottom-45">
+                    
+                    <h6 class="margin-left-45">(margin left 45px) - <code>.margin-left-45</code></h6>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                    <hr class="margin-bottom-45">
+            	</div><!-- end col-sm-6 -->
+                
+                <div class="col-sm-6 padd text-right">
+                    <h6 class="margin-right-5"><code>.margin-right-5</code> - (margin right 5px)</h6>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                    <hr class="margin-bottom-45">
+                    
+                    <h6 class="margin-right-10"><code>.margin-right-10</code> - (margin right 10px)</h6>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                    <hr class="margin-bottom-45">
+                    
+                    <h6 class="margin-right-15"><code>.margin-right-15</code> - (margin right 15px)</h6>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                    <hr class="margin-bottom-45">
+                    
+                    <h6 class="margin-right-20"><code>.margin-right-20</code> - (margin right 20px)</h6>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                    <hr class="margin-bottom-45">
+                    
+                    <h6 class="margin-right-25"><code>.margin-right-25</code> - (margin right 25px)</h6>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                    <hr class="margin-bottom-45">
+                    
+                    <h6 class="margin-right-30"><code>.margin-right-30</code> - (margin right 30px)</h6>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                    <hr class="margin-bottom-45">
+                    
+                    <h6 class="margin-right-35"><code>.margin-right-35</code> - (margin right 35px)</h6>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                    <hr class="margin-bottom-45">
+                    
+                    <h6 class="margin-right-40"><code>.margin-right-40</code> - (margin right 40px)</h6>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                    <hr class="margin-bottom-45">
+                    
+                    <h6 class="margin-right-45"><code>.margin-right-45</code> - (margin right 45px)</h6>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                    <hr class="margin-bottom-45">
+            	</div><!-- end col-sm-6 -->
+                
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </section>
+    <!-- end margins -->
+    
+    <!-- content icons-->
+    <section class="content section-grey">
+    	<div class="container">
+        	<div class="row">
+                <h5 class="text-center">Content Icons</h5>
+                <div class="line"></div>
+                
+                <div class="col-sm-6 padd">
+                	<p>Neque porro,  <i class="fa fa-thumbs-up blue"></i> qui dolorem  ipsum dolor <i class="fa fa-google red"></i> sit amet, consectetur, <i class="fa fa-cloud default"></i>  adipisci velit, sed quia non numquam eius modi <i class="fa fa-map-marker"></i> tempora incidunt ut labore et dolore magnam <i class="fa fa-envelope orange"></i> aliquam quaerat <i class="fa fa-bank pink"></i> voluptatem modi <i class="fa fa-cab purple"></i> tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                </div><!-- end col-sm-6 -->
+                
+                <div class="col-sm-6 padd">
+                	<p>Neque <i class="fa fa-thumbs-up icons icons-default circle"></i> porro, and  qui <i class="fa fa-thumbs-up icons icons-red rounded-x2"></i> dolorem and  ipsum dolor sit amet, consectetur, adipisci velit, <i class="fa fa-thumbs-up icons icons-pink rounded"></i> sed quia non <i class="fa fa-thumbs-up icons icons-purple rounded-x3"></i> numquam eius modi <i class="fa fa-thumbs-up icons icons-orange rounded-x4"></i> tempora incidunt ut labore et <i class="fa fa-thumbs-up icons icons-blue circle"></i> dolore magnam aliquam quaerat <i class="fa fa-thumbs-up icons icons-dark rounded"></i> voluptatem modi tempora <i class="fa fa-thumbs-up icons icons-grey rounded-x2"></i>  and  incidunt ut labore  and  <i class="fa fa-thumbs-up icons icons-light-grey rounded-x3"></i> et dolore magnam aliquam quaerat voluptatem.</p>
+                </div><!-- end col-sm-6 -->
+            
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </section>
+    <!-- end content icons -->
+    
+    <!-- drop capitals -->
+    <section class="content">
+    	<div class="container">
+        	<div class="row">
+            	<h5 class="text-center">Dropcap</h5>
+                <div class="line"></div>
+                <div class="col-sm-6 padd">
+                    <p>Add Class <code>.dropcap</code></p>
+                    <p><span class="dropcap">D</span> 
+                    lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa.</p>
+                </div>
+                <div class="col-sm-6 padd">
+                    <p>Add Class <code>.dropcap .piksell-color</code></p>
+                    <p><span class="dropcap piksell-color">D</span> 
+                    lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa.</p>
+                </div>
+                <div class="col-sm-6 padd">
+                    <p>Add Class <code>.dropcap-bg</code></p>
+                    <p><span class="dropcap-bg">D</span> 
+                    lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa.</p>
+                </div>
+                <div class="col-sm-6 padd">
+                    <p>Add Class <code>.dropcap-bg .rounded</code></p>
+                    <p><span class="dropcap-bg rounded">D</span> 
+                    lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa.</p>
+                </div>
+                <div class="col-sm-6 padd">
+                    <p>Add Class <code>.dropcap-bg .rounded-x2</code></p>
+                    <p><span class="dropcap-bg rounded-x2">D</span> 
+                    lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa.</p>
+                </div>
+                <div class="col-sm-6 padd">
+                    <p>Add Class <code>.dropcap-bg .rounded-x3</code></p>
+                    <p><span class="dropcap-bg rounded-x3">D</span> 
+                    lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa.</p>
+                </div>
+                <div class="col-sm-6 padd">
+                    <p>Add Class <code>.dropcap-bg .rounded-x4</code></p>
+                    <p><span class="dropcap-bg rounded-x4">D</span> 
+                    lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa.</p>
+                </div>
+                <div class="col-sm-6 padd">
+                    <p>Add Class <code>.dropcap-bg .circle</code></p>
+                    <p><span class="dropcap-bg circle">D</span> 
+                    lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa.</p>
+                </div>
+            </div><!-- end row -->
+        </div><!--end container -->
+    </section>
+    <!-- end drop capitals -->
+    
+    <!-- text styles -->
+    <section class="content section-grey">
+    	<div class="container text-center">
+        	<div class="row">
+            	<h5>Text Styles</h5>
+                <div class="line"></div>
+                
+                <div class="col-sm-4 padd">
+                	<ul class="no-bullets">
+                    	<li><a href="#">This is default link</a></li>
+                        <li><a href="#" class="dark-link">This is dark link</a></li>
+                        <li><i>This is italic text</i></li>
+                        <li><strong>This is strong text</strong></li>
+                        <li><strong><i>This is strong and italic text</i></strong></li>
+                    </ul>
+                </div><!-- end col-sm-4 -->
+                
+                <div class="col-sm-4 padd">
+                	<ul class="no-bullets">
+                    	<li><span class="uppercase">Uppercase</span></li>
+                        <li><span class="weight-300">Weight Light</span></li>
+                        <li><span class="weight-400">Weight Regular</span></li>
+                        <li><span class="weight-600">Weight Semibold</span></li>
+                        <li><span class="weight-800">Weight Bold</span></li>
+                        <li><span class="letter-spacing">Letter spacing 1px</span></li>
+                        <li><span class="letter-spacing-3">Letter spacing 3px</span></li>
+                    </ul>
+                </div><!-- end col-sm-4 -->
+                
+                <div class="col-sm-4 padd">
+                	<ul class="no-bullets">
+                    	<li><span class="default">Base color text</span></li>
+                        <li><span class="pink">Pink text</span></li>
+                        <li><span class="red">Red text</span></li>
+                        <li><span class="purple">Purple text</span></li>
+                        <li><span class="orange">Orange text</span></li>
+                        <li><span class="blue">Blue text</span></li>
+                        <li><span class="grey">Grey text</span></li>
+                    </ul>
+                </div><!-- end col-sm-4 -->
+                
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </section>
+    <!-- end text styles -->
+    
+    <!-- dividers -->
+    <section class="content">
+    	<div class="container">
+        	<div class="row">
+            	<h5 class="text-center">Dividers</h5>
+                <div class="line"></div>
+                
+                <div class="col-sm-6 padd">
+                	<h6>Solid divider</h6>
+                    <p>Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    <hr class="divider">
+                    <p>Voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem nesciunt.</p>
+                    
+                    <hr class="margin-bottom-25">
+                    
+                    <h6>Solid Divider Big Space</h6>
+                    <p>Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    <hr class="divider divider-big">
+                    <p>Voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem nesciunt.</p>
+                    <hr class="margin-bottom-25">
+                    
+                    <h6>Solid Divider Bigger Space</h6>
+                    <p>Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    <hr class="divider divider-bigger">
+                    <p>Voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem nesciunt.</p>
+                    <hr class="margin-bottom-25">
+                </div><!-- end col-sm-6 -->
+                
+                <div class="col-sm-6 padd">
+                	<h6>Dotted Divider</h6>
+                    <p>Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    <hr class="divider-dotted">
+                    <p>Voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem nesciunt.</p>
+                    
+                    <hr class="margin-bottom-25">
+                    
+                    <h6>Dotted Divider Big Space</h6>
+                    <p>Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    <hr class="divider-dotted divider-big">
+                    <p>Voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem nesciunt.</p>
+                    
+                    <hr class="margin-bottom-25">
+                    
+                    <h6>Dotted Divider Bigger Space</h6>
+                    <p>Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    <hr class="divider-dotted divider-bigger">
+                    <p>Voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem nesciunt.</p>
+                    
+                    <hr class="margin-bottom-25">
+                </div><!-- end col-sm-6 -->
+                
+                <div class="col-sm-6 padd">
+                	<h6>Dashed Divider</h6>
+                    <p>Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    <hr class="divider-dashed">
+                    <p>Voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem nesciunt.</p>
+                    
+                    <hr class="margin-bottom-25">
+                    
+                    <h6>Dashed Divider Big Space</h6>
+                    <p>Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    <hr class="divider-dashed divider-big">
+                    <p>Voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem nesciunt.</p>
+                    
+                    <hr class="margin-bottom-25">
+                    
+                    <h6>Dashed Divider Bigger Space</h6>
+                    <p>Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    <hr class="divider-dashed divider-bigger">
+                    <p>Voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem nesciunt.</p>
+                    
+                    <hr class="margin-bottom-25">
+                </div><!-- end col-sm-6 -->
+                
+                <div class="col-sm-6 padd">
+                	<h6>Double Dotted Divider</h6>
+                    <p>Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    <hr class="divider-double-dotted">
+                    <p>Voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem nesciunt.</p>
+                    
+                    <hr class="margin-bottom-25">
+                    
+                    <h6>Double Dotted Divider Big Space</h6>
+                    <p>Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    <hr class="divider-double-dotted divider-big">
+                    <p>Voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem nesciunt.</p>
+                    
+                    <hr class="margin-bottom-25">
+                    
+                    <h6>Double Dotted Divider Bigger Space</h6>
+                    <p>Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    <hr class="divider-double-dotted divider-bigger">
+                    <p>Voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem nesciunt.</p>
+                    
+                    <hr class="margin-bottom-25">
+                </div><!-- end col-sm-6 -->
+                
+                <div class="col-sm-6 padd">
+                	<h6>Double Dashed Divider</h6>
+                    <p>Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    <hr class="divider-double-dashed">
+                    <p>Voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem nesciunt.</p>
+                    
+                    <hr class="margin-bottom-25">
+                    
+                    <h6>Double Dashed Divider Big Space</h6>
+                    <p>Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    <hr class="divider-double-dashed divider-big">
+                    <p>Voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem nesciunt.</p>
+                    
+                    <hr class="margin-bottom-25">
+                    
+                    <h6>Double Dashed Divider Bigger Space</h6>
+                    <p>Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    <hr class="divider-double-dashed divider-bigger">
+                    <p>Voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem nesciunt.</p>
+                    
+                    <hr class="margin-bottom-25">
+                </div><!-- end col-sm-6 -->
+                
+                <div class="col-sm-6 padd">
+                	<h6>Divider Piksell</h6>
+                    <p>Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    <hr class="divider-piksell">
+                    <p>Voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem nesciunt.</p>
+                    
+                    <hr class="margin-bottom-25">
+                    
+                    <h6>Divider Piksell Big Space</h6>
+                    <p>Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    <hr class="divider-piksell divider-big">
+                    <p>Voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem nesciunt.</p>
+                    
+                    <hr class="margin-bottom-25">
+                    
+                    <h6>Divider Piksell Bigger Space</h6>
+                    <p>Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    <hr class="divider-piksell divider-bigger">
+                    <p>Voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem nesciunt.</p>
+                    
+                    <hr class="margin-bottom-25">
+                </div><!-- end col-sm-6 -->
+                
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </section>
+    <!-- end dividers -->               
+	
+    <!-- column -->                
+	<section class="content section-grey">
+    	<div class="container">
+        	<div class="row">
+            	<h5 class="text-center">Columns</h5>
+                <div class="line"></div>
+                
+                <div class="col-sm-6 padd">
+                    <h6>1/2</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, eius, quae, aliquam, minima odit vel voluptatum sapiente ducimus vitae necessitatibus sunt ut pariatur dicta eos saepe illo quaerat aspernatur libero.</p>
+                </div>
+                <div class="col-sm-6 padd">
+                    <h6>1/2</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, eius, quae, aliquam, minima odit vel voluptatum sapiente ducimus vitae necessitatibus sunt ut pariatur dicta eos saepe illo quaerat aspernatur libero.</p>
+                </div>
+                
+                <div class="col-sm-4 padd">
+                    <h6>1/3</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, eius, quae, aliquam, minima odit vel voluptatum sapiente ducimus vitae necessitatibus sunt ut pariatur dicta eos saepe illo quaerat aspernatur libero.</p>
+                </div>
+                <div class="col-sm-4 padd">
+                    <h6>1/3</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, eius, quae, aliquam, minima odit vel voluptatum sapiente ducimus vitae necessitatibus sunt ut pariatur dicta eos saepe illo quaerat aspernatur libero.</p>
+                </div>
+                <div class="col-sm-4 padd">
+                    <h6>1/3</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, eius, quae, aliquam, minima odit vel voluptatum sapiente ducimus vitae necessitatibus sunt ut pariatur dicta eos saepe illo quaerat aspernatur libero.</p>
+                </div>
+                
+                <div class="col-sm-3 padd">
+                    <h6>1/4</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, eius, quae, aliquam, minima odit vel voluptatum sapiente ducimus vitae necessitatibus sunt ut pariatur dicta eos saepe illo quaerat aspernatur libero.</p>
+                </div>
+                <div class="col-sm-3 padd">
+                    <h6>1/4</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, eius, quae, aliquam, minima odit vel voluptatum sapiente ducimus vitae necessitatibus sunt ut pariatur dicta eos saepe illo quaerat aspernatur libero.</p>
+                </div>
+                <div class="col-sm-3 padd">
+                    <h6>1/4</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, eius, quae, aliquam, minima odit vel voluptatum sapiente ducimus vitae necessitatibus sunt ut pariatur dicta eos saepe illo quaerat aspernatur libero.</p>
+                </div>
+                <div class="col-sm-3 padd">
+                    <h6>1/4</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, eius, quae, aliquam, minima odit vel voluptatum sapiente ducimus vitae necessitatibus sunt ut pariatur dicta eos saepe illo quaerat aspernatur libero.</p>
+                </div>
+                
+                <div class="col-sm-3 padd">
+                    <h6>1/4</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="col-sm-9 padd">
+                    <h6>3/4</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, eius, quae, aliquam, minima odit vel voluptatum sapiente ducimus vitae necessitatibus sunt ut pariatur dicta eos saepe illo quaerat aspernatur libero.</p>
+                </div>
+                
+                <div class="col-sm-4 padd">
+                    <h6>1/3</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, eius, quae, aliquam, minima odit vel voluptatum sapiente.</p>
+                </div>
+                <div class="col-sm-8 padd">
+                    <h6>2/3</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, eius, quae, aliquam, minima odit vel voluptatum sapiente ducimus vitae necessitatibus sunt ut pariatur dicta eos saepe illo quaerat aspernatur libero.</p>
+                </div>
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </section>
+    <!-- end column -->
+
+    <!-- footer -->
+    <footer id="footer" class="dark">
+        <div class="container footer">
+            <div class="row">
+                
+                <div class="col-sm-5 padd">
+                    <h5>Piksell</h5>
+                    <div class="line-left"></div>
+                    <p>Stet clita kasd gubergren, no sea takimata sanctus est consetetur sadipscing elitr accusam aliquyam diam diam dolore dolores duo eirmod. At accusam aliquyam diam diam dolore dolores eirmodeos erat, et nonumy sed tempor et et invidunt justo labore stet clita.</p>
+                </div>
+                
+                <div class="col-sm-3 padd">
+                    <h5>Piksell Contact</h5>
+                    <div class="line-left"></div>
+                    <address>
+                        <p> 
+                            <i class="fa fa-map-marker"></i>&nbsp;77 Mass. Ave., E14/E15<br>
+                            Seattle, MA 02139-4307 USA <br>
+                            <i class="fa fa-phone"></i>&nbsp;012.345.6789 <br>
+                            <i class="fa fa-envelope"></i>&nbsp;<a href="mailto:mantii_ju@hotmail.com">info@piksell.com</a> 
+                        </p>
+                    </address>
+                </div>
+                
+                <div class="col-sm-4 padd">
+                    <h5>Monthly Newsletter</h5>
+                    <div class="line-left"></div>
+                    <p>Stet clita kasd gubergren, no sea takimata sanctus est consetetur sadipscing.</p>
+                    <form>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Email Address">
+                            <span class="input-group-btn">
+                                <button class="btn pi-btn-default" type="button">Subscirbe</button>
+                            </span>
+                        </div>
+                    </form>
+                    <a href="#" class="social-icon-jump-x4 rounded">
+                        <div>
+                            <i class="fa fa-facebook facebook-icon-jump"></i>
+                            <i class="fa fa-facebook social-icon-jump-dark"></i>
+                        </div>
+                    </a>
+                    <a href="#" class="social-icon-jump-x4 rounded">
+                        <div>
+                            <i class="fa fa-twitter twitter-icon-jump"></i>
+                            <i class="fa fa-twitter social-icon-jump-dark"></i>
+                        </div>
+                    </a>
+                    <a href="#" class="social-icon-jump-x4 rounded">
+                        <div>
+                            <i class="fa fa-dribbble dribbble-icon-jump"></i>
+                            <i class="fa fa-dribbble social-icon-jump-dark"></i>
+                        </div>
+                    </a>
+                    <a href="#" class="social-icon-jump-x4 rounded">
+                        <div>
+                            <i class="fa fa-linkedin linkedin-icon-jump"></i>
+                            <i class="fa fa-linkedin social-icon-jump-dark"></i>
+                        </div>
+                    </a>
+                    <a href="#" class="social-icon-jump-x4 rounded">
+                        <div>
+                            <i class="fa fa-skype skype-icon-jump"></i>
+                            <i class="fa fa-skype social-icon-jump-dark"></i>
+                        </div>
+                    </a>
+                </div>
+            
+            </div><!-- end row -->
+        </div><!-- end container -->
+        
+        <div class="copyrights">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="col-sm-12">
+                        <p class="pull-left">2014 &copy; <a href="http://www.diamondcreative.net">DiamondCreative</a> / All Rights reserved.</p>
+                        <ul class="inline-block pull-right">
+                            <li><a href="../privacy-policy.html">Privacy Policy</a></li>  
+                            <li class="topbar-devider"></li>
+                            <li><a href="../faq.html">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                    
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </div><!-- end copyrights -->
+    </footer>
+    <!-- end footer -->
+    
+    <!-- jQuery -->
+    <script src="../js/jquery-1.11.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery.easing.min.js"></script>
+    <script src="../js/jquery.fitvids.js"></script>
+    <script src="../js/owl.carousel.js"></script>
+    <script src="../js/jquery.ui.totop.min.js"></script>
+    <script src="../js/jquery.countTo.js"></script>
+    <script src="../js/jquery.parallax-1.1.3.js"></script>
+    <script src="../js/jquery.placeholder.js"></script>
+    <script src="../js/main.js"></script>
+    
+</body>
+</html>

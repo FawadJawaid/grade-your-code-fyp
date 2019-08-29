@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/wamp/www/GradeYourCode/application/views/bootstrap/student_header.php</file>
+            <file>file:/C:/wamp/www/GradeYourCode/application/controllers/homepage.php</file>
+            <file>file:/C:/wamp/www/GradeYourCode/application/models/student_code.php</file>
+            <file>file:/C:/wamp/www/GradeYourCode/application/models/quiz.php</file>
+            <file>file:/C:/wamp/www/GradeYourCode/application/controllers/student.php</file>
+            <file>file:/C:/wamp/www/GradeYourCode/application/models/course.php</file>
+            <file>file:/C:/wamp/www/GradeYourCode/application/controllers/user_login.php</file>
+            <file>file:/C:/wamp/www/GradeYourCode/application/config/config.php</file>
+            <file>file:/C:/wamp/www/GradeYourCode/application/models/announcement.php</file>
+            <file>file:/C:/wamp/www/GradeYourCode/application/models/stu_pic.php</file>
+            <file>file:/C:/wamp/www/GradeYourCode/application/views/bootstrap/footer.php</file>
+            <file>file:/C:/wamp/www/GradeYourCode/application/views/bootstrap/teacher_header.php</file>
+        </group>
+    </open-files>
+</project-private>
